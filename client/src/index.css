@@ -1,0 +1,22 @@
+/* Import fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Prata&display=swap');
+
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Theme configuration */
+@theme {
+  --color-primary: #2563EB;
+  --color-secondary: #FBBF24;
+}
+
+/* Custom global styles */
+* {
+  font-family: Outfit, sans-serif;
+}
+
+.font-playfair {
+  font-family: Playfair, serif !important;
+}
