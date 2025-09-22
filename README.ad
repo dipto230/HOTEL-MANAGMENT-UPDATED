@@ -1,0 +1,153 @@
+# 🏨 Hotel Booking App (MERN Stack)
+
+![MERN Badge](https://img.shields.io/badge/MERN-Stack-green) ![React Badge](https://img.shields.io/badge/React-17.0.2-blue) ![Node.js Badge](https://img.shields.io/badge/Node.js-18.0.0-green) ![MongoDB Badge](https://img.shields.io/badge/MongoDB-Atlas-green) ![Stripe Badge](https://img.shields.io/badge/Payment-Stripe-yellow) ![Email Badge](https://img.shields.io/badge/Email-Nodemailer-orange) ![Home Page](screenshort/Home.png)
+
+
+---
+
+## 💻 Project Overview
+
+This is a **full-stack Hotel Booking application** built with **MERN** (MongoDB, Express, React, Node.js).  
+Users can search hotels, book rooms, make secure payments, and receive **email verification and booking confirmation**.  
+Admins can manage hotels and rooms.
+
+---
+
+## ⚡ Features
+
+- User Authentication & Authorization (Sign Up / Sign In)
+- Email Verification for Account Activation
+- Hotel Listing, Search, & Filtering
+- Room Booking with Availability Check
+- Secure Payment Integration (Stripe)
+- Booking Confirmation Emails (Nodemailer / SMTP)
+- Admin Dashboard to Manage Hotels & Rooms
+- Star Ratings for Hotels
+- Responsive & Interactive UI
+
+---
+
+## 🛠 Technologies Used
+
+| Frontend | Backend | Database | Other Tools |
+|----------|---------|----------|-------------|
+| React.js | Node.js | MongoDB Atlas | Firebase / Clerk Auth |
+| TailwindCSS | Express.js | Mongoose | Stripe Payment |
+| React Router | JWT | - | Nodemailer Email |
+| Axios | - | - | React Context API |
+
+---
+
+## 📂 Folder Structure
+
+hotel-booking-app/
+│
+├─ client/ # React frontend
+│ ├─ src/
+│ │ ├─ components/
+│ │ ├─ pages/
+│ │ └─ assets/
+│
+├─ server/ # Node.js backend
+│ ├─ controllers/
+│ ├─ models/
+│ ├─ routes/
+│ ├─ configs/
+│ └─ server.js
+
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/hotel-booking-app.git
+cd hotel-booking-app
+
+
+Install backend dependencies:
+
+cd server
+npm install
+
+
+Install frontend dependencies:
+
+cd ../client
+npm install
+
+
+Create a .env file in the server folder:
+
+MONGODB_URI=<Your MongoDB URI>
+JWT_SECRET=<Your JWT Secret>
+CLERK_PUBLISHABLE_KEY=<Your Clerk Publishable Key>
+CLERK_SECRET_KEY=<Your Clerk Secret Key>
+SMTP_HOST=<Your SMTP Host>
+SMTP_PORT=<SMTP Port>
+SMTP_USER=<SMTP User>
+SMTP_PASS=<SMTP Password>
+STRIPE_SECRET_KEY=<Your Stripe Key>
+
+🚀 Running the App
+
+Start the backend server:
+
+cd server
+npm run dev
+
+
+Start the frontend:
+
+cd client
+npm start
+
+
+Open your browser at http://localhost:3000
+
+🖼 Screenshots
+
+Home Page
+
+
+Hotel Listing
+
+
+Room Booking & Payment
+
+
+Email Confirmation
+
+
+📝 Usage
+
+Sign up and verify your email.
+
+Search hotels by city or date.
+
+Select rooms and proceed to booking.
+
+Make payment securely via Stripe.
+
+Receive booking confirmation via email.
+
+🤝 Contributing
+
+Fork the repository
+
+Create a branch: git checkout -b feature/YourFeature
+
+Commit your changes: git commit -m "Add Your Feature"
+
+Push to branch: git push origin feature/YourFeature
+
+Open a Pull Request
+
+📧 Contact
+
+Dipto Roy
+Email: diptoroy230305@gmail.com
+
+GitHub: https://github.com/diptoroy0784
